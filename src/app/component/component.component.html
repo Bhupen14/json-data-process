@@ -1,0 +1,19 @@
+<div>
+<p>Persons</p>
+<ul>
+  <li *ngFor="let i of myData">{{i.name}}</li>
+</ul>
+
+</div>
+<hr>
+
+<form #personInfo = "ngForm">
+  Name : <input type="text" class = "form-control" name = "name"  [(ngModel)] = "name"><br>
+  Age : <input type="text" class = "form-control" name = "age" [(ngModel)] = "age"><br>
+ Id : <input type="text" class = "form-control" name = "id" [(ngModel)] = "id"><br>
+<button (click)="saveInfo(personInfo.value)">Save</button>
+<br>
+
+{{personInfo.value | json}}
+</form>
+  

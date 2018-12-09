@@ -1,0 +1,19 @@
+{
+  "People": [
+    {
+      "name": "Andrew Amernante",
+      "age": 30,
+      "id":1
+    },
+    {
+      "name": "Tim John",
+      "age": 40,
+      "id":2
+    },
+    {
+      "name": "Methew Amernante",
+      "age": 35,
+      "id":3
+    }
+  ]
+}
